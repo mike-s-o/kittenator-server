@@ -1,0 +1,6 @@
+{
+  "name": "Kittenator Serve",
+  "description": "API Server for Kittens against Haters",
+  "repository": "git@github-mike:mike-s-o/kittenator-server.git",
+  "image": "heroku/nodejs"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "kittenator-server",
+  "version": "1.0.0",
+  "description": "Server for Kittens against Haters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-mike:mike-s-o/kittenator-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "jsxBracketSameLine": true
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.1"
+  }
+}
